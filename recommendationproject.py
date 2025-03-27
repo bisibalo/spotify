@@ -4,7 +4,7 @@ import numpy as np
 from scipy.sparse import csr_matrix
 
 st.subheader("SPOTIFY")
-st.image("spotify-deal-page-467x316.jpg")
+st.image("spotifydeal.jpg")  
 
 # Load data
 songs = pickle.load(open("songs.pkl", 'rb'))
